@@ -9,8 +9,8 @@ include $(THEOS)/makefiles/common.mk
 
 TWEAK_NAME = RoundDockRemastered
 
-RoundDockRemastered_FILES = Tweak.x
-RoundDockRemastered_CFLAGS = -fobjc-arc
+RoundDockRemastered_FILES = Tweak.xm
+RoundDockRemastered_CFLAGS = -fobjc-arc -std=c++11
 RoundDockRemastered_EXTRA_FRAMEWORKS += Cephei
 RoundDockRemastered_LIBRARIES = colorpicker
 

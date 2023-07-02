@@ -90,7 +90,7 @@
 			<key>default</key>
 			<string>#ffffff</string>
 			<key>label</key>
-			<string>Default</string>
+			<string>Background color</string>
 			<key>key</key>
 			<string>dockColor</string>
 			<key>id</key>
