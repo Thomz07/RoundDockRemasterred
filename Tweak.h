@@ -65,6 +65,10 @@
 @property (nonatomic, retain) UIView *backgroundView;
 @end
 
+@interface SBHighlightView : UIView
+@property (nonatomic,readonly) double highlightHeight;
+@end
+
 SBDockView *globalDockView;
 
 HBPreferences *preferences;

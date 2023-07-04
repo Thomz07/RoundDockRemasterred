@@ -57,6 +57,9 @@
 		self.backgroundView.layer.cornerRadius = 0;
 		self.backgroundView.backgroundColor = [UIColor clearColor];
 	}
+
+	SBHighlightView *view = MSHookIvar<SBHighlightView *>(self, "_highlightView");
+	[view removeFromSuperview]; // This removes the ugly line at the top og the dock, not sure what is is here for 
 }
 
 %end
