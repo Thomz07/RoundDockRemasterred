@@ -6,19 +6,11 @@
 	<array>
 		<dict>
 			<key>cell</key>
-			<string>PSGroupCell</string>
-		</dict>
-		<dict>
-			<key>cell</key>
-			<string>PSGroupCell</string>
-			<key>condensed</key>
-			<true/>
-			<key>headerCellClass</key>
-			<string>HBPackageNameHeaderCell</string>
-			<key>icon</key>
-			<string>icon.png</string>
-			<key>packageIdentifier</key>
-			<string>com.thomz.rounddockremastered</string>
+			<string>PSStaticTextCell</string>
+			<key>cellClass</key>
+			<string>RoundDockHeaderCell</string>
+			<key>height</key>
+    		<real>220</real>
 		</dict>
 		<dict>
 			<key>cell</key>

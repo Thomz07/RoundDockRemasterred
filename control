@@ -6,6 +6,6 @@ Description: Round the corners of your dock
 Maintainer: Thomz
 Author: Thomz
 Section: Tweaks
-Depends: ws.hbang.common (>= 1.17), preferenceloader (>= 2.2.4), ws.hbang.alderis (>= 1.2), firmware (>= 15.0)
+Depends: ws.hbang.common (>= 1.17), preferenceloader (>= 2.2.4), ws.hbang.alderis (>= 1.2), firmware (>= 14.0)
 Conflicts: com.thomz.cenamopro
 Icon: https://github.com/Thomz07/RoundDockRemasterred/blob/main/rounddockremasteredpreferences/Resources/icon@3x.png?raw=true
