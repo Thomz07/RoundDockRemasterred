@@ -6,11 +6,9 @@
 - (void)traitCollectionDidChange:(UITraitCollection *)previousTraitCollection {
     %orig;
 
-    if (@available(iOS 13.0, *)) {
-        if ([self.traitCollection hasDifferentColorAppearanceComparedToTraitCollection:previousTraitCollection]) {
-            CFNotificationCenterPostNotification(CFNotificationCenterGetDarwinNotifyCenter(), CFSTR("com.thomz.rounddockremasteredpreferences/ReloadPrefs"), NULL, NULL, true);
-        }
-    }
+	dispatch_async(dispatch_get_main_queue(), ^(void){
+		self.backgroundView.backgroundColor = changeDockColor ? [UIColor colorFromHexCode:dockColor] : [UIColor clearColor];
+	});
 }
 
 -(void)layoutSubviews {
@@ -36,11 +34,9 @@
 - (void)traitCollectionDidChange:(UITraitCollection *)previousTraitCollection {
     %orig;
 
-    if (@available(iOS 13.0, *)) {
-        if ([self.traitCollection hasDifferentColorAppearanceComparedToTraitCollection:previousTraitCollection]) {
-            CFNotificationCenterPostNotification(CFNotificationCenterGetDarwinNotifyCenter(), CFSTR("com.thomz.rounddockremasteredpreferences/ReloadPrefs"), NULL, NULL, true);
-        }
-    }
+    dispatch_async(dispatch_get_main_queue(), ^(void){
+		self.backgroundView.backgroundColor = changeDockColor ? [UIColor colorFromHexCode:dockColor] : [UIColor clearColor];
+	});
 }
 
 -(void)layoutSubviews {

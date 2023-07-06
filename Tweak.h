@@ -69,6 +69,11 @@
 @property (nonatomic,readonly) double highlightHeight;
 @end
 
+@interface UIUserInterfaceStyleArbiter : NSObject
+@property (nonatomic,readonly) long long currentStyle; 
++(id)sharedInstance;
+@end
+
 SBDockView *globalDockView;
 
 HBPreferences *preferences;
