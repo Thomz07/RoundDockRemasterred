@@ -14,12 +14,11 @@
 -(void)layoutSubviews {
 	%orig;
 	if (enableSwitch){
-		UIView *backgroundView = MSHookIvar<UIView *>(self, "_backgroundView");
 		CGRect frame = backgroundView.frame;
 		frame.size.height = self.bounds.size.height + 100;
-		backgroundView.layer.cornerRadius = dockCornerRadius;
-		backgroundView.backgroundColor = changeDockColor ? [UIColor colorFromHexCode:dockColor] : [UIColor clearColor];
-		backgroundView.frame = frame;
+		self.backgroundView.layer.cornerRadius = dockCornerRadius;
+		self.backgroundView.backgroundColor = changeDockColor ? [UIColor colorFromHexCode:dockColor] : [UIColor clearColor];
+		self.backgroundView.frame = frame;
 	} else {
 		self.backgroundView.layer.cornerRadius = 30;
 		self.backgroundView.backgroundColor = [UIColor clearColor];
