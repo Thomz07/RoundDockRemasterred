@@ -15,7 +15,7 @@
 
 @end
 
-@implementation RoundDockHeaderCell 
+@implementation ThomzHeaderCell 
 
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(id)reuseIdentifier specifier:(id)specifier {
 	self = [super initWithStyle:style reuseIdentifier:reuseIdentifier specifier:specifier];

@@ -6,5 +6,5 @@
 
 @end
 
-@interface RoundDockHeaderCell : PSTableCell
+@interface ThomzHeaderCell : PSTableCell
 @end

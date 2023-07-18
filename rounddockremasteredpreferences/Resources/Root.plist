@@ -8,7 +8,7 @@
 			<key>cell</key>
 			<string>PSStaticTextCell</string>
 			<key>cellClass</key>
-			<string>RoundDockHeaderCell</string>
+			<string>ThomzHeaderCell</string>
 			<key>height</key>
     		<real>220</real>
 		</dict>
@@ -27,8 +27,8 @@
 			<string>enableSwitch</string>
 			<key>label</key>
 			<string>Enable</string>
-			<key>PostNotification</key>
-			<string>com.thomz.rounddockremasteredpreferences/ReloadPrefs</string>	
+			<!-- <key>PostNotification</key>
+			<string>com.thomz.rounddockremasteredpreferences/ReloadPrefs</string>	 -->
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -43,8 +43,8 @@
 			<integer>0</integer>
 			<key>max</key>
 			<integer>50</integer>
-			<key>PostNotification</key>
-    		<string>com.thomz.rounddockremasteredpreferences/ReloadPrefs</string>
+			<!-- <key>PostNotification</key>
+    		<string>com.thomz.rounddockremasteredpreferences/ReloadPrefs</string> -->
 			<key>leftImageSystem</key>
 			<dict>
 				<key>name</key>
@@ -69,8 +69,8 @@
 			<string>changeDockColor</string>
 			<key>label</key>
 			<string>Change dock color</string>
-			<key>PostNotification</key>
-			<string>com.thomz.rounddockremasteredpreferences/ReloadPrefs</string>	
+			<!-- <key>PostNotification</key>
+			<string>com.thomz.rounddockremasteredpreferences/ReloadPrefs</string>	 -->
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -89,8 +89,8 @@
 			<string>dockColor</string>
 			<key>showAlphaSlider</key>
 			<false/>
-			<key>PostNotification</key>
-    		<string>com.thomz.rounddockremasteredpreferences/ReloadPrefs</string>
+			<!-- <key>PostNotification</key>
+    		<string>com.thomz.rounddockremasteredpreferences/ReloadPrefs</string> -->
 		</dict>
 		<dict>
 			<key>cell</key>
